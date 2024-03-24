@@ -1,1 +1,1 @@
-#echo Manager FE Project
+Manager FE Project
