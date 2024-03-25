@@ -1,0 +1,135 @@
+body {
+    display: block;
+    font-family: Helvetica, Arial, san-serif;
+
+
+
+}
+
+.mask {
+    background-color: #E5E5E5;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-image: none;
+    background-origin: padding-box;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-size: auto;
+    box-sizing: border-box;
+    color: #666;
+
+    font-size: 15px;
+    line-height: 22.5px;
+    position: relative;
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.weak {
+    font-size: 14px;
+    color: rgb(0, 157, 255);
+    opacity: 50%;
+}
+
+.position {
+    margin-bottom: 0px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0;
+
+    padding-bottom: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 20px;
+
+    width: 284.8px;
+}
+
+.position h1 {
+    font-size: 24px;
+}
+
+/* Comm                        */
+.list-item {
+
+    margin-bottom: 0px;
+    margin-left: 20%;
+    margin-right: 10%;
+    margin-top: 0;
+
+    padding-bottom: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 20px;
+
+    column-count: 2;
+    column-fill: balance;
+    column-gap: 20px;
+
+    box-sizing: border-box;
+
+
+}
+
+.list-item li {
+    display: inline-block;
+    font-size: 15px;
+    line-height: 22.5px;
+    list-style-type: disc;
+    position: relative;
+    text-align: left;
+    text-size-adjust: 100%;
+
+    width: 18rem;
+    cursor: pointer;
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.list-item li:hover {
+    color: rgba(0, 38, 255, 0.774);
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+
+.sp {
+    font-style: italic;
+    color: green;
+    opacity: 50%;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.list-item li h5 {
+    margin-bottom: 0;
+}
+
+.list-item li h5 span {
+    font-size: 12px;
+    font-style: italic;
+    opacity: 25%;
+}
+
+.list-item li .img {
+    width: 200px;
+    height: 200px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.card {
+    animation: fadeIn 1s ease-in-out;
+}
+
+.nav-button {
+    text-align: center;
+}
