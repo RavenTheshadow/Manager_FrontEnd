@@ -1,0 +1,99 @@
+.Spacing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: url(../img/Staff.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    padding-top: 17rem;
+    padding-bottom: 10rem;
+    height: 100vh;
+    background-position-y: 0rem;
+}
+
+.Spacing .content {
+    position: absolute;
+    top: 20rem;
+    padding: 0;
+    height: 25%;
+    background-color: rgba(0, 0, 0, .25);
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Spacing .content h1 {
+    font-size: 4rem;
+    color: var(--gray);
+}
+
+.Spacing .content span {
+    font-size: 2.3rem;
+    color: var(--gray);
+}
+
+/*  */
+.info .swiper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.info .swiper-wrapper {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.info .swiper-wrapper .doctor-container {
+    display: grid;
+    gap: 1.5rem;
+}
+
+
+.info .swiper-wrapper .doctor-box {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    text-align: center;
+    padding: 3rem 2rem;
+    outline-offset: -1rem;
+    outline: var(--outline);
+    box-shadow: var(--box-shadow);
+    transition: 0.2s linear;
+    width: 100%;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.info .swiper-wrapper .doctor-box:hover {
+    outline-offset: -0.3rem;
+    outline: var(--outline-hover);
+}
+
+.info .swiper-wrapper .doctor-box h3 {
+    font-size: 2rem;
+}
+
+.info .swiper-wrapper .doctor-box .doctor-icon {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    padding: 0 8rem;
+    justify-content: space-between;
+}
+
+.info i {
+    font-size: 1.7rem;
+    color: var(--box-hover);
+}
+
+.info img {
+    margin: 1rem 0;
+    height: 280px;
+}
