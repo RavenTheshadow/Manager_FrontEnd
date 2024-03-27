@@ -1,11 +1,13 @@
 .wrapper {
     display: block;
-    margin-top: 8%;
+    margin-top: 5%;
 }
 
 .wrapper h1 {
+    color: #0073B1;
+    font-weight: 600;
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 
@@ -19,15 +21,6 @@
 }
 
 .table {
-    /* font-size: 1.5rem; 
-    max-width: 75vw;
-    max-height: 60vh;
-    background-color: #fff;
-    box-shadow: var(--strong-box-shadow);
-    margin-top: 30px;
-    overflow: hidden;
-    border-radius: 1rem;
-    position: relative; */
     border-radius: 1rem;
     overflow: hidden;
     box-shadow: var(--strong-box-shadow);
@@ -105,32 +98,6 @@ tbody .delete:hover {
     color: red;
 }
 
-/* .button {
-    margin-top: 2rem;
-    margin-bottom: 4rem;
-    position: relative;
-    width: 65%;
-}
-
-.button .btn {
-    position: absolute;
-    right: 0;
-}
-
-.button .btn button {
-    padding: 1rem;
-    width: 100px;
-    border-radius: 1rem;
-    border: none;
-    font-size: 1.5rem;
-    background-color: var(--primary-blue);
-    font-weight: 600;
-}
-
-.button .btn button:hover {
-    background-color: var(--gray);
-} */
-
 .button {
     text-align: center;
 }
@@ -138,14 +105,24 @@ tbody .delete:hover {
 .button button {
     padding: 1rem;
     border: var(--border);
-    border-radius: 10%;
+    border-radius: 5px;
     background-color: #0073B1;
     font-size: 15px;
     font-weight: 600;
+
+    margin-left: 5%;
+    margin-right: 5%;
+
+    font-weight: 500;
 }
 
 .button button:hover {
     background-color: var(--gray);
+}
+
+.table_body .Information:hover {
+    text-decoration: underline;
+    color: blue;
 }
 
 
@@ -177,12 +154,69 @@ tbody .delete:hover {
 }
 
 .search button {
+
     background-color: var(--primary-blue);
     font-size: 1.5rem;
     font-weight: 500;
     border-radius: 1rem;
+
 }
 
 .search button:hover {
     background-color: var(--gray)
+}
+
+/* Form */
+
+.info .FORM .Product {
+    margin-top: 2%;
+    display: grid;
+}
+
+.info .FORM label {
+    margin-bottom: 2%;
+    font-size: 20px;
+    color: #0073B1;
+}
+
+.info .FORM input {
+    padding: 1%;
+    font-size: 15px;
+    margin-bottom: 2%;
+    box-shadow: var(--box-shadow);
+    border: var(--border);
+}
+
+.info .FORM input[type="checkbox"] {
+
+    width: 20px;
+    height: 20px;
+
+    margin-left: 1%;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+}
+
+.New_Product input,
+textarea {
+    width: 50%;
+    height: auto;
+    box-shadow: var(--box-shadow);
+    border: var(--border);
+}
+
+.text-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+.text-box label {
+    text-align: center;
+}
+
+.New_Product {
+    opacity: 0.5;
+    pointer-events: none;
 }
